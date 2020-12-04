@@ -6,7 +6,7 @@ total_q = 4
 
 if ans.lower() == 'yes':
      ans = input('1. What is the best part of my home? ')
-     if ans.lower() == 'the living room' or 'your room':
+     if ans.lower() == 'the living room' or ans.lower() == 'your room':
          score += 1
          print('Correct')
      else:
